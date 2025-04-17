@@ -519,12 +519,9 @@ coroutine.wrap(BYOI_fake_script)()
 local function EXZEL_fake_script() -- OpenButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenButton)
 
-	local frame = script.Parent.Parent.Frame  -- change “Test” to the name of the frane
-	local open = false
+	local frame = script.Parent.Parent.Frame
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		end
+		frame.Visible = not frame.Visible
 	end)
 end
