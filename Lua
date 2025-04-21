@@ -137,7 +137,7 @@ GRAPPLEKILL.TextScaled = true
 GRAPPLEKILL.TextSize = 14.000
 GRAPPLEKILL.TextWrapped = true
 GRAPPLEKILL.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/XxFlazedxX/grple/refs/heads/main/kill"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XxFlazedxX/Ekill/refs/heads/main/killGps"))()
 end)
 
 FLAZEDLUA.Name = "FLAZEDLUA"
