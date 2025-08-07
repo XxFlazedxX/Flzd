@@ -239,7 +239,7 @@ CHATBYPASS.TextScaled = true
 CHATBYPASS.TextSize = 14.000
 CHATBYPASS.TextWrapped = true
 CHATBYPASS.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XxFlazedxX/Boost-controller/refs/heads/main/Panel"))()
 end)
 
 CHATBYPASS_2.Name = "CHAT BYPASS"
@@ -256,7 +256,7 @@ CHATBYPASS_2.TextScaled = true
 CHATBYPASS_2.TextSize = 14.000
 CHATBYPASS_2.TextWrapped = true
 CHATBYPASS_2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XxFlazedxX/Boost-controller/refs/heads/main/Panel"))()
 end)
 
 INVISIBLESCRIPT.Name = "INVISIBLE SCRIPT"
